@@ -582,6 +582,19 @@ a {
   color: #222;
   margin-bottom: 10px;
   transition: all 0.3s ease;
+  position: relative;
+}
+.footer a::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background-color: #088178;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease;
 }
 .footer .icons{
   margin-top: 8px;
@@ -609,6 +622,10 @@ a {
 .footer .follow i:hover,
 .footer a:hover {
   color: #088178;
+}
+.footer a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
 }
 .copyright {
   width: 100%;
