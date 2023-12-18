@@ -148,7 +148,7 @@ a {
 }
 .hero h2 {
   font-size: 60px;
-  line-height: 60px;
+  line-height: 65px;
   font-weight: 600;
   padding-bottom: 5px;
   filter: drop-shadow(3px 3px 8px rgba(0, 0, 0, 0.1));
@@ -712,6 +712,12 @@ a {
   }
 }
 
+@media (max-width: 560px) {
+  .feature__box{
+    width: 155px;
+  }
+}
+
 @media (max-width: 540px) {
   .newsletter{
     padding: 40px 20px;
@@ -721,6 +727,13 @@ a {
 @media (max-width: 500px) {
   .header{
     padding: 15px 40px;
+  }
+  .features{
+    gap: 5px;
+    padding: 40px 20px;
+  }
+  .feature__box{
+    padding: 25px 5px;
   }
 }
 
@@ -756,16 +769,25 @@ a {
     padding: 40px 20px;
   }
   .hero h2{
-    font-size: 50px;
+    font-size: 45px;
+    line-height: 50px;
   }
   .hero h1{
-    font-size: 55px;
+    font-size: 50px;
+    line-height: 55px;
   }
   .features {
     padding: 40px 10px;
   }
   .hero__products{
     padding: 40px 10px;
+  }
+}
+
+@media (max-width: 350px) {
+  .feature__box {
+    width: 180px;
+    padding: 25px 15px;
   }
 }
 
