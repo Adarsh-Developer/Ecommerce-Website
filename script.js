@@ -1,3 +1,4 @@
+/* Code to create a working Slidebar */
 const slideBtn = document.querySelector(".slide__btn");
 const closeBtn = document.querySelector(".close__btn");
 const slideBar = document.querySelector(".navbar");
