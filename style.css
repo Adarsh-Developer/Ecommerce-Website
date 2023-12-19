@@ -741,10 +741,6 @@ a {
   }
 }
 
-@media (max-width: 1380px) {
-  .pro__details;
-}
-
 @media (max-width: 1210px) {
   .small__banners {
     align-items: center;
