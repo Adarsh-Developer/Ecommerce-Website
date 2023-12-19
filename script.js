@@ -6,6 +6,14 @@ const slideBar = document.querySelector(".navbar");
 slideBtn.addEventListener("click", () => {
   slideBar.style.right = 0;
   closeBtn.addEventListener("click", () => {
-    slideBar.style.right = '-250px';
-  })
+    slideBar.style.right = "-250px";
+  });
+});
+
+/* Code to go the product details page */
+let proProduct = document.querySelectorAll(".pro");
+proProduct.forEach(function (e) {
+  e.addEventListener("click", function () {
+    window.location.href = "sproduct.html";
+  });
 });
