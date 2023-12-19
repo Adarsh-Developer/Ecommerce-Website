@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce-Website</title>
+
+    <!--==========--- REMIX-ICON-CDN ---==========-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--==========--- STYLE-SHEET ---==========-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="header">
+      <a href="index.html" class="logo">ADARSH</a>
+
+      <div>
+        <ul class="navbar">
+          <i class="ri-close-line close__btn"></i>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li>
+            <a class="active" href="cart.html"
+              ><i class="ri-shopping-bag-line"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="slider__button">
+        <a href="cart.html"><i class="ri-shopping-bag-line"></i></a>
+        <i class="ri-menu-2-fill slide__btn"></i>
+      </div>
+    </section>
+
+    <section class="shop__hero">
+      <h2>#cart</h2>
+      <p>Add your coupon code &Save upto 70%</p>
+    </section>
+
+    <section class="cart__container">
+      <table width="100%">
+        <thead>
+          <tr>
+            <td>Remove</td>
+            <td>Image</td>
+            <td>Product</td>
+            <td>Price</td>
+            <td>Quantity</td>
+            <td>Sub Total</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href="#"><i class="ri-close-line"></i></a>
+            </td>
+            <td><img src="./Images/Products/f1.jpg" alt="" /></td>
+            <td>Cartoon Astronaut T-Shirt</td>
+            <td>$40</td>
+            <td><input type="number" value="1" /></td>
+            <td>$40</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#"><i class="ri-close-line"></i></a>
+            </td>
+            <td><img src="./Images/Products/f1.jpg" alt="" /></td>
+            <td>Cartoon Astronaut T-Shirt</td>
+            <td>$40</td>
+            <td><input type="number" value="1" /></td>
+            <td>$40</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#"><i class="ri-close-line"></i></a>
+            </td>
+            <td><img src="./Images/Products/f1.jpg" alt="" /></td>
+            <td>Cartoon Astronaut T-Shirt</td>
+            <td>$40</td>
+            <td><input type="number" value="1" /></td>
+            <td>$40</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="total__cart">
+      <div class="left">
+        <h3>Apply Coupon</h3>
+        <input type="text" placeholder="Enter Your Coupon" />
+        <button>Apply</button>
+      </div>
+      <div class="right">
+        <h3>Cart Total</h3>
+        <table>
+          <tr>
+            <td>Cart Sub Total</td>
+            <td>$120</td>
+          </tr>
+          <tr>
+            <td>Shipping</td>
+            <td>Free</td>
+          </tr>
+          <tr>
+            <td><strong>Total</strong></td>
+            <td><strong>$120</strong></td>
+          </tr>
+        </table>
+        <button>Proceed to checkout</button>
+      </div>
+    </section>
+
+    <section class="footer">
+      <h1 class="logo">ADARSH</h1>
+      <div class="column address">
+        <h4>Contact</h4>
+        <p><strong>Address: </strong>Adarsh Nagar Kunhadi Kota 324008</p>
+        <p><strong>Phone: </strong>6375659723</p>
+        <div class="follow">
+          <h3>Follow Us</h3>
+          <div class="icons">
+            <i class="ri-facebook-fill"></i>
+            <i class="ri-twitter-fill"></i>
+            <i class="ri-instagram-line"></i>
+            <i class="ri-pinterest-fill"></i>
+            <i class="ri-youtube-fill"></i>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delievery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <div class="column">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+      <div class="column install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+          <img src="./Images/paying/app.jpg" alt="" />
+          <img src="./Images/paying/play.jpg" alt="" />
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="./Images/paying/pay.png" alt="" />
+      </div>
+      <div class="copyright">
+        <p>©️ 2023, Adarsh Jain - Ecommerce Template</p>
+      </div>
+    </section>
+
+    <!--==========--- JAVA-SCRIPT ---==========-->
+    <script src="script.js"></script>
+  </body>
+</html>
